@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Minha Página Pessoal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Douglas Almondes</h1>
+  <p>Estudante de Tecnologia & Web Developer</p>
+</header>
+
+<nav>
+  <a href="#sobre">Sobre</a>
+  <a href="#habilidades">Habilidades</a>
+  <a href="#contato">Contato</a>
+</nav>
+
+<section id="sobre">
+  <h2>Sobre mim</h2>
+  <p>
+    Sou estudante da área de tecnologia, com interesse em desenvolvimento web,
+    utilizando HTML, CSS e JavaScript para criar interfaces modernas e funcionais.
+  </p>
+</section>
+
+<section id="habilidades">
+  <h2>Habilidades</h2>
+  <ul>
+    <li>HTML5</li>
+    <li>CSS3</li>
+    <li>JavaScript</li>
+    <li>Responsividade</li>
+  </ul>
+</section>
+
+<section id="contato">
+  <h2>Contato</h2>
+  <form id="formContato">
+    <input type="text" id="nome" placeholder="Seu nome">
+    <small class="erro"></small>
+
+    <input type="email" id="email" placeholder="Seu email">
+    <small class="erro"></small>
+
+    <textarea id="mensagem" placeholder="Sua mensagem"></textarea>
+    <small class="erro"></small>
+
+    <button type="submit">Enviar</button>
+  </form>
+  <p id="sucesso"></p>
+</section>
+
+<footer>
+  <p>© <span id="ano"></span> - Todos os direitos reservados</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

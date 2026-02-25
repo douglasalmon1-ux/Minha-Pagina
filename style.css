@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f4f4;
+}
+
+header {
+  background: #2c3e50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background: #34495e;
+  text-align: center;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+section {
+  padding: 20px;
+  background: white;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+form input, form textarea {
+  width: 100%;
+  margin-bottom: 8px;
+  padding: 8px;
+}
+
+button {
+  background: #27ae60;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.erro {
+  color: red;
+  font-size: 12px;
+}
+
+#sucesso {
+  color: green;
+  font-weight: bold;
+}
+
+footer {
+  background: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
